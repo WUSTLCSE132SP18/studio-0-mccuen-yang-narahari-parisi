@@ -6,9 +6,10 @@
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("Hello, world!");
+
   pinMode(13,OUTPUT);
   int sec =0;
+  Serial.println("Hello, world!");
 }
 
 void loop() {

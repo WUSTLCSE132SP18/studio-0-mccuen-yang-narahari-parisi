@@ -4,8 +4,8 @@ public class Heartbeat {
 	public static void main(String[] args) {
 		int s =0;
 	while(true) {	
-	try {
-	
+	try {  
+	 
 		Thread.sleep(1000);
 		s=s+1;
 		
@@ -15,7 +15,7 @@ public class Heartbeat {
 		e.printStackTrace();
 	}
 	}	  
-	
+	 
 	
 
 	}
